@@ -5,7 +5,7 @@ Amazon's shoppers depend on product reviews when making a purchase. While Amazon
 
 ## Instructions
 ### Level 1
-* Use the furnished schema to create tables in your RDS database, and create two separate Google Colab notebooks.
+* Use the furnished schema to create tables in RDS database, and create two separate Google Colab notebooks.
 * **Extract** two datasets from the [Review Dataset](https://s3.amazonaw.com/amazon-reviews-pds/tsv/index.txt), and count the number of reviews.
 * **Transform** the dataset to fit the tables in the [Schema File](../Resources/schema.sql).
 * **Load** the DataFrames that correspond to tables into an RDS instance.
