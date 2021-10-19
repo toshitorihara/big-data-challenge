@@ -5,17 +5,19 @@ Amazon's shoppers depend on product reviews when making a purchase. While Amazon
 
 ## Instructions
 ### Level 1
-* Use the furnished schema to create tables in RDS database, and create two separate Google Colab notebooks.
+* Use the furnished schema to create tables in RDS database.
+* Create two separate Google Colab notebooks.
 * **Extract** two datasets from the [Review Dataset](https://s3.amazonaw.com/amazon-reviews-pds/tsv/index.txt), and count the number of reviews.
 * **Transform** the dataset to fit the tables in the [Schema File](../Resources/schema.sql).
 * **Load** the DataFrames that correspond to tables into an RDS instance.
 
 ### Level 2
 Investigate whether Amazon's Vine Customer Reviews are free of bias by using either PySpark or SQL to analyze the data. <p>
-![Image](Images/vine01.png)
-* Number of records vs Total Vine reviews:   
-### Conclusion: The result analysis indicates the majority of Vine reviews have high star ratings perhaps due to its nature that reviewers receive free products in exchange for reviews, it can be concluded that the reviews from Amazon's Vine program may not be trustworthy.<p>
 
-### Considerations
-* Delete RDS password and endpoint when uploading the Jupyter Notebooks in [Level 1](level-1) and [Level 2](level-2)<br>
+  ![Image](Images/vine01.png)
+
+In summary, the result analysis (number of records vs total Vine reviews) indicates the majority of Vine reviews have high star ratings perhaps due to its nature that reviewers are only interested in receiving free products in exchange for reviews. It can be concluded that the reviews from Amazon's Vine program may not be trustworthy.<p>
+
+## Considerations
+* Delete RDS password and endpoint when uploading the Jupyter Notebooks: [Level 1](level-1) and [Level 2](level-2)
 * Clean up all AWS resources by referring to [AWS cleanup guide](../Resources/AWS_cleanup.pdf) and [AWS check billing guide](../Resources/AWS_check_billing.pdf)
