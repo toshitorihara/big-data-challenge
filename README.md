@@ -11,11 +11,10 @@ Amazon's shoppers depend on product reviews when making a purchase. While Amazon
 * **Load** the DataFrames that correspond to tables into an RDS instance.
 
 ### Level 2
-
 Investigate whether Amazon's Vine Customer Reviews are free of bias by using either PySpark or SQL to analyze the data. <p>
 ![Image](Images/vine01.png)
-
-### Conclusion: The analysis indicates that due to Amazon's Vine program's nature of reviewers receiving free products in exchange for reviews, it can be concluded that the reviews from Amazon's Vine program may not be trustworthy.<p>
+* Number of records vs Total Vine reviews:   
+### Conclusion: The result analysis indicates the majority of Vine reviews have high star ratings perhaps due to its nature that reviewers receive free products in exchange for reviews, it can be concluded that the reviews from Amazon's Vine program may not be trustworthy.<p>
 
 ### Considerations
 * Delete RDS password and endpoint when uploading the Jupyter Notebooks in [Level 1](level-1) and [Level 2](level-2)<br>
