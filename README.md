@@ -22,5 +22,4 @@ But are Vine reviews truly trustworthy? Your task is to investigate whether Vine
 * Submit a summary of your findings and analysis.
 - - -
 ## Submission
-* Download the Google Colab notebooks as `.ipynb` files (delete the RDS password and endpoint before making the notebook public), and copy SQL queries into `.sql` files and upload to GitHub.
-* Make sure to clean up all AWS resources by referring to [AWS cleanup guide](../Resources/AWS_cleanup.pdf) and [AWS check billing guide](../Resources/AWS_check_billing.pdf).
+Download the Google Colab notebooks as `.ipynb` files (delete the RDS password and endpoint before making the notebook public), and copy SQL queries into `.sql` files and upload to GitHub. Make sure to clean up all AWS resources by referring to [AWS cleanup guide](../Resources/AWS_cleanup.pdf) and [AWS check billing guide](../Resources/AWS_check_billing.pdf).
