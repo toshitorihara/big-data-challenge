@@ -16,7 +16,7 @@ Investigate whether Amazon's Vine Customer Reviews are free of bias by using eit
 
   ![Image](Images/vine01.png)
 
-In summary, the result analysis (number of records vs total Vine reviews) indicates the majority of Vine reviews have high star ratings perhaps due to its nature that reviewers are only interested in receiving free products in exchange for reviews. It can be concluded that the reviews from Amazon's Vine program may not be trustworthy.<p>
+In summary, the result analysis (number of records vs total Vine reviews) indicates the majority of Vine reviews have high star ratings perhaps due to its nature that reviewers are only interested in receiving free products in exchange for writing reviews. It can be concluded that the reviews from Amazon's Vine program may not be trustworthy.<p>
 
 ## Further Considerations
 * Delete RDS password and endpoint when uploading the Jupyter Notebooks: [Level 1](level-1) and [Level 2](level-2)
