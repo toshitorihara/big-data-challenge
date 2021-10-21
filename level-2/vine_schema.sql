@@ -5,4 +5,4 @@ CREATE TABLE vine_table (
   helpful_votes INTEGER,
   total_votes INTEGER,
   vine TEXT
-)
+);
