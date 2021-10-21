@@ -16,10 +16,8 @@ Investigate whether Amazon's Vine Customer Reviews are free of bias by using eit
 
   ![Image](Images/vine01.png)
 
-In summary, the result analysis (number of records vs total vine Reviews) indicates the majority of Vine reviewers tend to provide higher star ratings (4 or 5) perhaps due to the fact that the reviewers are less interested in providing comments in general may be unless they receive a free products in exchange for writing reviews. It can be concluded that the reviews from Amazon's Vine program may not be trustworthy.<p>
-  
-In summary, despite the number of records for video games (1,785,886) were much higher than that of the software (341,913), based on analysis, the total vine reviews for video games are lower than the software with higher star ratings for  
-
+Number of reviews (records): 1. Video Games: 1,785,886 2. Software: 341,913<br>
+Despite the number of reviews for video games were much higher than that of the software, the total vine reviews for video games was lower than the software. The result analysis indicates the majority of Vine reviewers provided high star ratings (4 or 5) may be due to reviewers are only interested to receive a free products in exchange for writing reviews. It can be concluded that the reviews from Amazon's Vine program may not be trustworthy.<p>
  
 ## Further Considerations
 * Delete RDS password and endpoint when uploading the Jupyter Notebooks: [Level 1](level-1) and [Level 2](level-2)
