@@ -16,7 +16,7 @@ Investigate whether Amazon's Vine Customer Reviews are free of bias by using eit
 
   ![Image](Images/vine01.png)
 
-Number of reviews (records): 1. Video Games: 1,785,886 2. Software: 341,913<br>
+Number of records (number of vine reviews): 1. Video Games: 1,785,886 (4,290) 2. Software: 341,913 (10,415) <br>
 Despite the number of reviews for the video games were higher than that of the software, the total Vine reviews for video games was lower than the software. The result analysis indicates the majority of Vine reviewers tends to provide high star ratings (4 or 5) possibly due to reviewers are influenced by its incentives, therefore the reviews from Amazon's Vine program may not be trustworthy.<p>
  
 ## Further Considerations
