@@ -14,7 +14,7 @@ Amazon's shoppers depend on product reviews when making a purchase. While Amazon
 ### Level 2
 Investigate whether Amazon's Vine Customer Reviews are free of bias by using either PySpark or SQL to analyze the data. <p>
 
-  ![Image](Images/vine01.png)
+  ![Image](Images/SQL_query.png)
 
 Number of records (number of vine reviews): 1. Video Games: 1,785,886 (4,290) 2. Software: 341,913 (10,415) <br>
 Despite the number of records for the video games were higher than that of the software, the total Vine reviews for video games was lower than the software. The result analysis indicates that the Vine reviewers tend to provide high star ratings (4 or 5) while there are limited records that are labled as "helpful votes". It can be concluded that the Amazon's Vine program may not always be trustworthy.<p>
